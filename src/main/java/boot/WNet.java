@@ -12,6 +12,7 @@ public class WNet {
 
     public static void main(String[] args) {
         SpringApplication.run(WNet.class, args);
+        System.out.println("abc");
     }
 
 }
