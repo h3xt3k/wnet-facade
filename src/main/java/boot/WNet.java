@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WNet {
 
     public static void main(String[] args) {
-        System.out.println("test123");
+        System.out.println("187");
         SpringApplication.run(WNet.class, args);
     }
 
