@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>de.my5t3ry</groupId>
-    <artifactId>kleague-facade</artifactId>
+    <groupId>de.h3xt3k</groupId>
+    <artifactId>wnet-facade</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>kleague-facade</name>
+    <name>wnet-facade</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -25,13 +25,6 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>-->
-        <!--<groupId>de.my5t3ry</groupId>-->
-        <!--<artifactId>wnet-persistence</artifactId>-->
-        <!--<version>1.0-SNAPSHOT</version>-->
-        <!--</dependency>-->
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -93,17 +86,13 @@
             <artifactId>stringtemplate</artifactId>
             <version>RELEASE</version>
         </dependency>
+        <dependency>
+            <groupId>de.h3xt3k</groupId>
+            <artifactId>wnet-persistence</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
-    <distributionManagement>
-        <repository>
-            <id>dgm-releases</id>
-            <url>http://service.dgm-it.de:8081/nexus/content/repositories/dgm-releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>dgm-snapshots</id>
-            <url>http://service.dgm-it.de:8081/nexus/content/repositories/dgm-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
+
     <build>
         <finalName>${project.artifactId}</finalName>
         <plugins>
