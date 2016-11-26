@@ -13,7 +13,6 @@ import java.util.List;
  */
 
 @RestController
-@CrossOrigin("http://localhost")
 @RequestMapping("/contact")
 public class ContactRestController {
 
@@ -21,7 +20,7 @@ public class ContactRestController {
     private ContactRepository contactRepository;
 
     @RequestMapping(value = "/all", method = RequestMethod.GET)
-
+    @CrossOrigin
     public List<Contact> getAllContacts() {
         List<Contact> result = (List) contactRepository.findAll();
         return result;
