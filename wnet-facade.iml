@@ -101,5 +101,7 @@
     <orderEntry type="library" name="Maven: org.antlr:antlr-runtime:3.3" level="project" />
     <orderEntry type="module" module-name="wnet-persistence" />
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-commons:1.12.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.keycloak:keycloak-tomcat8-adapter:2.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.keycloak:keycloak-spring-boot-adapter:2.4.0" level="project" />
   </component>
 </module>
